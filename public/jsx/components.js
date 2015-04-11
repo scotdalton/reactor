@@ -73,7 +73,7 @@ var Directory = React.createClass({
   render: function() {
     return (
       <span className="directory">
-        {this.props.name}
+        {this.props.name} {""}
       </span>
     );
   }
@@ -83,7 +83,7 @@ var LinkedDirectory = React.createClass({
   render: function() {
     return (
       <a className="directory" href={this.props.href}>
-        {this.props.name}
+        {this.props.name} {""}
       </a>
     );
   }
@@ -93,7 +93,7 @@ var File = React.createClass({
   render: function() {
     return (
       <span className="file">
-        {this.props.name}
+        {this.props.name} {""}
       </span>
     );
   }
@@ -103,7 +103,7 @@ var LinkedFile = React.createClass({
   render: function() {
     return (
       <a className="file" href={this.props.href} target="_blank">
-        {this.props.name}
+        {this.props.name} {""}
       </a>
     );
   }
