@@ -158,8 +158,7 @@ var Shell = React.createClass({
         key={data.id}
         onComplete={this.runNextCommand}
         input={data.input}
-        output={data.output()}
-      />
+        output={data.output()} />
     );
   },
   runNextCommand: function() {
