@@ -8,6 +8,29 @@
     "type": "git",
     "url": "https://github.com/scotdalton/me.git"
   },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testDirectoryName": "test",
+    "scriptPreprocessor": "<rootDir>/test/preprocess.js",
+    "moduleFileExtensions": [
+      "cjsx",
+      "js",
+      "json",
+      "coffee",
+      "litcoffee",
+      "coffee.md"
+    ],
+    "testFileExtensions": [
+      "cjsx",
+      "coffee"
+    ],
+    "collectCoverage": true,
+    "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules/react"
+    ]
+  },
   "devDependencies": {
     "coffee-react": "~3.0.1",
     "react": "*",
@@ -16,6 +39,6 @@
     "grunt-contrib-sass": "^0.9.2",
     "grunt-contrib-uglify": "^0.9.1",
     "grunt-shell": "^1.1.2",
-    "jest-cli": "~0.4.0"
+    "jest-cli": "^0.4.0"
   }
 }
