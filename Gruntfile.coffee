@@ -1,6 +1,5 @@
 module.exports = (grunt) ->
   npmTasks = [
-    'grunt-shell',
     'grunt-contrib-clean',
     'grunt-contrib-uglify',
     'grunt-browserify',
