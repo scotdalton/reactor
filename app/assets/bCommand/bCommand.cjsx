@@ -1,10 +1,22 @@
-Command = React.createClass
+React = require 'react'
+FileList = require '../bFileList/bFileList.cjsx'
+StdIn = require '../bStdIn/bStdIn.cjsx'
+StdOut = require '../bStdOut/bStdOut.cjsx'
+
+module.exports = React.createClass
+  propTypes:
+    onComplete: React.PropTypes.func
+
+  getDefaultProps: ->
+    # Noop
+    onComplete: ->
+
   getInitialState: ->
     stdOut: null
 
   stdOut: ->
     if @props.input == 'ls -a'
-      <FileList files={@props.output} onClick={@props.onClick} />
+      <StdOut output={<FileList files={@props.output} onClick={@props.onClick} />} />
     else
       <StdOut output={@props.output} />
 

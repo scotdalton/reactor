@@ -1,4 +1,17 @@
-StdIn = React.createClass
+React = require 'react'
+Prompt = require '../bPrompt/bPrompt.cjsx'
+
+module.exports = React.createClass
+  propTypes:
+    input: React.PropTypes.string.isRequired
+    tty: React.PropTypes.bool
+    onComplete: React.PropTypes.func
+
+  getDefaultProps: ->
+    tty: false
+    # Noop
+    onComplete: ->
+
   getInitialState: ->
     input: ''
 
@@ -14,7 +27,6 @@ StdIn = React.createClass
       @setState
         input: @props.input
       @props.onComplete()
-
 
   componentDidMount: ->
     @type()

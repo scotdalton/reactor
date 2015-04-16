@@ -1,5 +1,8 @@
-Prompt = React.createClass
+React = require 'react'
+File = require '../bFile/bFile.cjsx'
+
+module.exports = React.createClass
   render: ->
     <span className="bPrompt">
-      ~&gt; <Directory name="scot"/>
+      ~&gt; <File type="d" name="scot"/>
     </span>

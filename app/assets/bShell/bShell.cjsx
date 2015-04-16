@@ -1,4 +1,22 @@
-Shell = React.createClass
+React = require 'react'
+Command = require '../bCommand/bCommand.cjsx'
+Intro = require '../bIntro/bIntro.cjsx'
+
+module.exports = React.createClass
+  propTypes:
+    commands:
+      React.PropTypes.arrayOf(
+        React.PropTypes.shape(
+          id: React.PropTypes.string
+          input: React.PropTypes.string
+          output: React.PropTypes.func
+        )
+      ).isRequired
+    intro: React.PropTypes.bool
+
+  getDefaultProps: ->
+    intro: false
+
   getInitialState: ->
     commands: []
 
@@ -27,7 +45,7 @@ Shell = React.createClass
     if @props.intro
       <Intro />
     else
-      <LastLogin />
+      {""}
 
   render: ->
     <div className="bShell">

@@ -1,23 +1,31 @@
-Directory = React.createClass
-  render: ->
-    <span className="bDirectory">
-      {this.props.name}
-    </span>
+React = require 'react'
 
-LinkedDirectory = React.createClass
-  render: ->
-    <a className="bDirectory" href={this.props.href} data-href={this.props.href} onClick={@props.onClick}>
-      {this.props.name}
-    </a>
+module.exports = React.createClass
+  propTypes:
+    type: React.PropTypes.oneOf(['f','d'])
+    name: React.PropTypes.string.isRequired
+    href: React.PropTypes.string
+    onClick: React.PropTypes.func
 
-File = React.createClass
-  render: ->
-    <span className="bFile">
-      {this.props.name}
-    </span>
+  getDefaultProps: ->
+    type: 'f'
 
-LinkedFile = React.createClass
   render: ->
-    <a className="bFile" href={this.props.href} target="_blank">
-      {this.props.name}
-    </a>
+    if @props.type is 'd'
+      if @props.href?
+        <a className="bDirectory" href={@props.href} data-href={@props.href} onClick={@props.onClick}>
+          {@props.name}
+        </a>
+      else
+        <span className="bDirectory">
+          {@props.name}
+        </span>
+    else
+      if @props.href?
+        <a className="bFile" href={@props.href} target="_blank">
+          {@props.name}
+        </a>
+      else
+        <span className="bFile">
+          {@props.name}
+        </span>
