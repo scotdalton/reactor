@@ -1,5 +1,4 @@
 .module-cache
 .sass-cache
-public/css/application.css.map
 node_modules
 tmp
