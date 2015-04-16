@@ -3,6 +3,7 @@
   "name": "scot-nyc",
   "version": "0.0.1",
   "homepage": "http://scot.nyc",
+  "description": "Scot Dalton on the World Wide Web.",
   "repository": {
     "type": "git",
     "url": "https://github.com/scotdalton/me.git"
