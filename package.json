@@ -10,7 +10,6 @@
   },
   "devDependencies": {
     "coffee-react": "~3.0.1",
-    "coffee-script": "~1.9.1",
     "react": "*",
     "grunt": "^0.4.5",
     "grunt-contrib-clean": "^0.6.0",
