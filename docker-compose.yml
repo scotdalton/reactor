@@ -1,0 +1,9 @@
+koa:
+  build: .
+  # Run in development "mode"
+  environment:
+    NODE_ENV: development
+  volumes:
+    - ./src:/var/www/src
+  ports:
+    - 3000:3000

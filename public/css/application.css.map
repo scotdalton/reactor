@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "CAAA,QAAS,EACP,YAAa,EAAE,IAAI,EACnB,IAAK,EAAE,GAAI,ECFb,iBAAmB,EACjB,WAAY,EAAE,EAAG,EACjB,cAAe,EAAE,GAAI,EAEvB,UAAW,EACT,IAAK,EAAE,MAAc,EAEvB,KAAM,EACJ,IAAK,EAAE,MAAa,ECRtB,SAAU,EACR,KAAM,EAAE,AAAC,EACT,MAAO,EAAE,AAAC,EACV,SAAU,EAAE,GAAI,EAEhB,cAAM,EACJ,MAAO,EAAE,KAAM,ECNnB,MAAO,EACL,YAAa,EAAE,EAAG,ECDpB,MAAO,EACL,SAAU,EAAE,GAAK,EACjB,IAAK,EAAE,MAAa,EACpB,UAAW,EAAE,oDAA0B,EACvC,QAAS,EAAE,EAAG,EACd,MAAO,EAAE,EAAG,EACZ,SAAU,EAAE,GAAI,ECNlB,0BAA2B,EACzB,MAAO,EAAE,EAAO,EAChB,KAAM,EAAE,gBAAuB,EAC/B,eAAgB,EAAE,MAAa,EAC/B,kBAAmB,EAAE,OAAQ,EAC7B,aAAc,EAAE,UAAW,ECL7B,GAAI,EACF,SAAU,EAAE,GAAK",
-"sources": ["../../app/assets/bCommand/bCommand.sass","../../app/assets/bFile/bFile.sass","../../app/assets/bFileList/bFileList.sass","../../app/assets/bIntro/bIntro.sass","../../app/assets/bShell/bShell.sass","../../app/assets/bStdIn/bStdIn.sass","../../app/assets/pApplication/pApplication.sass"],
-"names": [],
-"file": "application.css"
-}
