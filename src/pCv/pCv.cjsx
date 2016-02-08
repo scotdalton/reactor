@@ -17,8 +17,10 @@ CvCfg =
 
 module.exports = React.createClass
   render: ->
-    <Shell
-      commands={CvCfg.commands}
-      intro={true}
-      tty={@props.tty}
-      onClick={@props.onClick} />
+    <div className="pCv">
+      <Shell
+        commands={CvCfg.commands}
+        intro={true}
+        tty={@props.tty}
+        onClick={@props.onClick} />
+    </div>

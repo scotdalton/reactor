@@ -17,8 +17,10 @@ ContactCfg =
 
 module.exports = React.createClass
   render: ->
-    <Shell
-      commands={ContactCfg.commands}
-      intro={true}
-      tty={@props.tty}
-      onClick={@props.onClick} />
+    <div className="pContact">
+      <Shell
+        commands={ContactCfg.commands}
+        intro={true}
+        tty={@props.tty}
+        onClick={@props.onClick} />
+    </div>

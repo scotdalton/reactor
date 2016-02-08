@@ -35,8 +35,10 @@ AboutCfg =
 
 module.exports = React.createClass
   render: ->
-    <Shell
-      commands={AboutCfg.commands}
-      intro={true}
-      tty={@props.tty}
-      onClick={@props.onClick} />
+    <div className="pAbout">
+      <Shell
+        commands={AboutCfg.commands}
+        intro={true}
+        tty={@props.tty}
+        onClick={@props.onClick} />
+    </div>

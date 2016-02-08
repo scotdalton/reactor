@@ -33,7 +33,7 @@ App = React.createClass
         <Cv tty={@state.tty.cv} onClick={@onClick} />
       when 'home'
         <Home tty={@state.tty.home} onClick={@onClick} />
-    <div className="pApplication">{shell}</div>
+    <div className="app">{shell}</div>
 
 module.exports =
   ReactDOM.render <App />, document.getElementById("content")

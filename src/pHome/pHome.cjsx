@@ -26,7 +26,7 @@ homeCfg =
 
 module.exports = React.createClass
   render: ->
-    <div className="bHome">
+    <div className="pHome">
       <Shell
         commands={homeCfg.commands}
         intro={false}
