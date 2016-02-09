@@ -5,7 +5,8 @@ File = require 'bFile/bFile.cjsx'
 AboutCfg =
   readme:
     """
-    I'm a full stack engineer with over 10 years of experience.
+    I'm a full stack engineer who believes software can do great things.
+    I wake up every morning with the intention of building tools to help real people solve real problems.
     """
   files: [
     id: "f1",

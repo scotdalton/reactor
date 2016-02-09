@@ -5,12 +5,14 @@ File = require 'bFile/bFile.cjsx'
 CvCfg =
   readme:
     """
-    Vitae coming soon.
+    For now, click on the the scot.pdf file above.
+    Interactive vitae coming soon.
     """
   files: [
     {id: "f1", name: ".", type: "d", href: "cv"},
     {id: "f2", name: "..", type: "d", href: "home"},
     {id: "f3", name: "README", type: "f"}
+    {id: "f4", name: "scot.pdf", type: "f", href: "https://dl.dropboxusercontent.com/u/4771112/scot.pdf"}
   ]
   commands: [
     {id: "c1", input:"pwd", output: -> <File type="d" name="/home/scot/cv" />},
