@@ -3,7 +3,10 @@ Shell = require 'bShell/bShell.cjsx'
 File = require 'bFile/bFile.cjsx'
 
 AboutCfg =
-  readme: "I'm a full stack engineer with over 10 years of experience."
+  readme:
+    """
+    I'm a full stack engineer with over 10 years of experience.
+    """
   files: [
     id: "f1",
     name: ".",

@@ -3,8 +3,11 @@ Shell = require 'bShell/bShell.cjsx'
 File = require 'bFile/bFile.cjsx'
 
 homeCfg =
-  readme: "Welcome to my little piece of the internet.
-           To learn a bit more about me, click on the directories above."
+  readme:
+    """
+    Welcome to my little piece of the internet.
+    To learn a bit more about me, click on the directories above.
+    """
   files: [
     {id: "f1", name: ".", type: "d", href: "home"},
     {id: "f2", name: "..", type: "d", href: "home"},

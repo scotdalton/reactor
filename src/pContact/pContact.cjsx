@@ -3,7 +3,10 @@ Shell = require 'bShell/bShell.cjsx'
 File = require 'bFile/bFile.cjsx'
 
 ContactCfg =
-  readme: "Drop me a line at scotdalton at gmail dot com."
+  readme:
+    """
+    Drop me a line at scotdalton at gmail dot com.
+    """
   files: [
     {id: "f1", name: ".", type: "d", href: "contact"},
     {id: "f2", name: "..", type: "d", href: "home"},

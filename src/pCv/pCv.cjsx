@@ -3,7 +3,10 @@ Shell = require 'bShell/bShell.cjsx'
 File = require 'bFile/bFile.cjsx'
 
 CvCfg =
-  readme: "Vitae coming soon."
+  readme:
+    """
+    Vitae coming soon.
+    """
   files: [
     {id: "f1", name: ".", type: "d", href: "cv"},
     {id: "f2", name: "..", type: "d", href: "home"},
