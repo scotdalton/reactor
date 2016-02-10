@@ -6,7 +6,7 @@ AboutCfg =
   readme:
     """
     I'm a full stack engineer who believes software can do great things.
-    I wake up every morning with the intention of building tools to help real people solve real problems.
+    I wake up every morning excited to build tools that help real people solve real problems.
     """
   files: [
     id: "f1",
