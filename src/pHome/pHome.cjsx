@@ -1,7 +1,6 @@
 React = require 'react'
 Shell = require 'bShell/bShell.cjsx'
 File = require 'bFile/bFile.cjsx'
-Intro = require 'bIntro/bIntro.cjsx'
 
 homeCfg =
   readme:

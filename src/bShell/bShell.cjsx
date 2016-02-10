@@ -42,7 +42,7 @@ module.exports = React.createClass
     @runNextCommand()
 
   renderIntro: ->
-    <Intro /> if @props.intro?
+    <Intro /> if @props.intro
 
   render: ->
     <div className="bShell">
