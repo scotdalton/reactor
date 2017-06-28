@@ -12,7 +12,7 @@ CvCfg =
     {id: "f1", name: ".", type: "d", href: "cv"},
     {id: "f2", name: "..", type: "d", href: "home"},
     {id: "f3", name: "README", type: "f"}
-    {id: "f4", name: "scot.pdf", type: "f", href: "https://dl.dropboxusercontent.com/u/4771112/scot.pdf"}
+    {id: "f4", name: "scot.pdf", type: "f", href: "https://www.dropbox.com/s/we5qiz2ywt2bh6u/scot.pdf"}
   ]
   commands: [
     {id: "c1", input:"pwd", output: -> <File type="d" name="/home/scot/cv" />},
