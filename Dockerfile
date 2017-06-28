@@ -1,4 +1,4 @@
-FROM node:5.4.0-slim
+FROM node:8.1-alpine
 
 ENV APP_DIR   /var/www
 ENV PATH      ${APP_DIR}/node_modules/.bin:${PATH}

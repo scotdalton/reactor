@@ -1,6 +1,6 @@
 path = require 'path'
-koa = require 'koa'
-app = do koa
+Koa = require 'koa'
+app = new Koa()
 serve = require 'koa-static'
 
 root = path.join __dirname, 'public'
